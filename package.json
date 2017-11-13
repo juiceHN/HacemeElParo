@@ -1,0 +1,32 @@
+{
+  "name": "HacemeElParo",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": null,
+  "license": "",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "node ./node_modules/react-native/local-cli/cli.js start",
+    "test": "node ./node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "^2.0.2",
+    "exp": "^45.1.0",
+    "expo": "^21.0.0",
+    "global": "^4.3.2",
+    "immutable": "^3.8.2",
+    "react": "16.0.0-alpha.12",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-21.0.2.tar.gz",
+    "react-native-elements": "^0.17.0",
+    "react-navigation": "^1.0.0-beta.12",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "remote-redux-devtools": "^0.5.12"
+  },
+  "devDependencies": {
+    "jest-expo": "^21.0.0"
+  }
+}
