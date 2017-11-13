@@ -24,7 +24,8 @@
     "react-navigation": "^1.0.0-beta.12",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
-    "remote-redux-devtools": "^0.5.12"
+    "remote-redux-devtools": "^0.5.12",
+    "stripe-client": "^1.1.3"
   },
   "devDependencies": {
     "jest-expo": "^21.0.0"

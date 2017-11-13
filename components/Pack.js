@@ -4,23 +4,15 @@ import {
   Text,
   StyleSheet
 } from 'react-native'
-import {
-	Card,
-	Button,
-	Divider
-} from 'react-native-elements'
+import { PricingCard } from 'react-native-elements'
 
-const Pack = ({ title, description }) => (
+const Pack = ({ title, description, price }) => (
 	<View>
-		<Card title={ title } >
-			<Text style={ styles.centertext } >
-				{ description }
-			</Text>
-			<Divider style={ styles.divider } />
-			<Button
-				title='Comprar'
-				icon={{ name: 'add-shopping-cart' }} />
-		</Card>
+		<PricingCard
+      title={ title }
+      price={ price }
+      info={ ['Descripción: ', description] }
+      button={{ title: 'Comprar', icon: 'add-shopping-cart' }} />
 	</View>
 )
 
